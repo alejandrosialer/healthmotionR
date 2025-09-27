@@ -1,0 +1,132 @@
+Licensing Information for healthmotionR Package
+
+This package, healthmotionR, includes datasets sourced from various R packages. In order to maintain consistency and clarity, a naming convention has been applied where suffixes are added to the dataset names to indicate the type and format of the datasets. The original content of these datasets has not been altered in any way.
+
+Dataset Licensing Information:
+
+- surgerydat_df:
+  Originally surgerydat from the success 1.1.1 package, licensed under GPL (>= 3).
+  The dataset name has been changed to 'surgerydat_df' to indicate that this dataset is a data frame object.
+
+- angle_walk_array:
+  Originally gait from the fda 6.3.0 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'angle_walk_array' to indicate that this dataset is an array object.
+
+- motion_sense_list:
+  Originally motion_sense_data from the ReMFPCA 2.0.0 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'motion_sense_list' to indicate that this dataset is a list object.
+
+- body_metrics_df:
+  Originally normtemp from the UsingR 2.0-7 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'body_metrics_df' to indicate that this dataset is a data frame object.
+
+- knee_speed_tbl_df:
+  Originally Tuzson from the pubh 2.0.0 package, licensed under GPL-2.
+  The dataset name has been changed to 'knee_speed_tbl_df' to indicate that this dataset is a tibble object.
+
+- infant_walking_df:
+  Originally infant_walking from the IIS 1.1 package, licensed under GPL-2.
+  The dataset name has been changed to 'infant_walking_df' to indicate that this dataset is a data frame object.
+
+- bodytempHeart_rate_df:
+  Originally body_temperature_and_heart_rate from the IIS 1.1 package, licensed under GPL-2.
+  The dataset name has been changed to 'bodytempHeart_rate_df' to indicate that this dataset is a data frame object.
+
+- meniscal_list:
+  Originally meniscal_repairs_load_at_failure from the IIS 1.1 package, licensed under GPL-2.
+  The dataset name has been changed to 'meniscal_list' to indicate that this dataset is a list object.
+
+- StandWalkJump_list:
+  Originally StandWalkJump from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'StandWalkJump_list' to indicate that this dataset is a list object.
+
+- FingerMovements_char:
+  Originally FingerMovements from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'FingerMovements_char' to indicate that this dataset is a character object.
+
+- HandMovementDir_char:
+  Originally HandMovementDirection from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'HandMovementDir_char' to indicate that this dataset is a character object.
+
+- Heartbeat_char:
+  Originally Heartbeat from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'Heartbeat_char' to indicate that this dataset is a character object.
+
+- AtrialFibrillation_list:
+  Originally AtrialFibrillation from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'AtrialFibrillation_list' to indicate that this dataset is a list object.
+
+- BasicMotions_list:
+  Originally BasicMotions from the mlmts 1.1.2 package, licensed under GPL-2.
+  The dataset name has been changed to 'BasicMotions_list' to indicate that this dataset is a list object.
+
+- Stepping_df:
+  Originally Stepping from the sur 1.0.4 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'Stepping_df' to indicate that this dataset is a data frame object.
+
+- motionpaths_list:
+  Originally motionpaths from the RRPP 2.1.2 package, licensed under GPL (>= 3).
+  The dataset name has been changed to 'motionpaths_list' to indicate that this dataset is a list object.
+
+- accel.z.monitoring_num:
+  Originally z.acc from the TrendLSW 1.0.2 package, licensed under GPL (>= 3).
+  The dataset name has been changed to 'accel.z.monitoring_num' to indicate that this dataset is a numeric object.
+
+- z.labels.monitoring_df:
+  Originally z.labels from the TrendLSW 1.0.2 package, licensed under GPL (>= 3).
+  The dataset name has been changed to 'z.labels.monitoring_df' to indicate that this dataset is a data frame object.
+
+- walking_df:
+  Originally walking from the mice 3.18.0 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'walking_df' to indicate that this dataset is a data frame object.
+
+- admiral_vs_tbl_df:
+  Originally admiral_vs from the admiral.test 0.7.0 package, licensed under Apache License (>= 2.0).
+  The dataset name has been changed to 'admiral_vs_tbl_df' to indicate that this dataset is a tibble object.
+
+- vs_peds_tbl_df:
+  Originally vs_peds from the pharmaversesdtm 1.3.1 package, licensed under Apache License (>= 2.0).
+  The dataset name has been changed to 'vs_peds_tbl_df' to indicate that this dataset is a tibble object.
+
+- KinData_df:
+  Originally KinData from the PredPsych 0.4 package, licensed under Apache License (>= 2.0).
+  The dataset name has been changed to 'KinData_df' to indicate that this dataset is a data frame object.
+
+- rheuma_df:
+  Originally rheuma from the Fahrmeir 2016.5.31 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'rheuma_df' to indicate that this dataset is a data frame object.
+
+- osteoarthritis_df:
+  Originally osteoarthritis from the MatchThem 1.2.1 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'osteoarthritis_df' to indicate that this dataset is a data frame object.
+
+- acceldata_list:
+  Originally acceldata from the accelmissing 2.2 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'acceldata_list' to indicate that this dataset is a list object.
+
+- acceldata2_list:
+  Originally acceldata2 from the accelmissing 2.2 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'acceldata2_list' to indicate that this dataset is a list object.
+
+- accelimp_list:
+  Originally accelimp from the accelmissing 2.2 package, licensed under GPL (>= 2).
+  The dataset name has been changed to 'accelimp_list' to indicate that this dataset is a list object.
+
+- Dataset: run_biomech_tbl_df
+   Originally Name or Title: run_data_meta.csv
+   Source: figshare
+   URL: https://plus.figshare.com/articles/dataset/Running_Injury_Clinic_Kinematic_Dataset/24255795/1?file=42637039
+   License: CC BY 4.0
+
+- Dataset: walk_biomech_tbl_df
+   Originally Name or Title: walk_data_meta.csv
+   Source: figshare
+   URL: https://plus.figshare.com/articles/dataset/Running_Injury_Clinic_Kinematic_Dataset/24255795/1?file=42637045
+   License: CC BY 4.0
+
+
+License
+
+All datasets in this package are provided under the same licenses as their original sources. The licensing information and any specific attribution required for each dataset can be found within their respective packages. Users must adhere to the licensing terms specified by each original source.
+
+The code in this package, healthmotionR, is licensed under the MIT License. See the LICENSE file in the root directory for details.

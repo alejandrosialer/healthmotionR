@@ -1,0 +1,8 @@
+bibentry(
+  bibtype = "Manual",
+  title   = "healthmotionR: A Comprehensive Collection of Health and Human Motion Datasets",
+  author  = "Oscar Alejandro Sialer Gallo",
+  year    = 2025,
+  note    = "R package version 0.1.0",
+  url     = "https://github.com/alejandrosialer/healthmotionR"
+)
