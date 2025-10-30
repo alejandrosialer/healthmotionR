@@ -37,9 +37,7 @@ data(acceldata_list)
 }
 \description{
 Data example from the 2003-2004 National Health and Nutrition Examination Survey (NHANES)
-dataset. The dataset is available at the website:
-\url{http://wwwn.cdc.gov/nchs/nhanes/search/nhanes03_04.aspx}.
-This example only includes 218 individuals, which gives 1,526 daily profiles,
+dataset. This example only includes 218 individuals, which gives 1,526 daily profiles,
 from a total of 7,176 participants in the physical activity survey.
 }
 \details{

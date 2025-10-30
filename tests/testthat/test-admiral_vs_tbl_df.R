@@ -1,5 +1,5 @@
 # healthmotionR - A Comprehensive Collection of Health and Human Motion Datasets
-# Version 0.1.0
+# Version 0.2.0
 # Copyright (C) 2025 Oscar Alejandro Sialer Gallo
 # Licensed under the MIT License.
 # See the LICENSE file in the root directory for full license text.

@@ -1,5 +1,5 @@
 # healthmotionR - A Comprehensive Collection of Health and Human Motion Datasets
-# Version 0.1.0
+# Version 0.2.0
 # Copyright (C) 2025 Oscar Alejandro Sialer Gallo
 # Licensed under the MIT License.
 # See the LICENSE file in the root directory for full license text.
@@ -692,9 +692,7 @@ NULL
 #' Accelerometer Data Example
 #'
 #' Data example from the 2003-2004 National Health and Nutrition Examination Survey (NHANES)
-#' dataset. The dataset is available at the website:
-#' \url{http://wwwn.cdc.gov/nchs/nhanes/search/nhanes03_04.aspx}.
-#' This example only includes 218 individuals, which gives 1,526 daily profiles,
+#' dataset. This example only includes 218 individuals, which gives 1,526 daily profiles,
 #' from a total of 7,176 participants in the physical activity survey.
 #'
 #' The dataset name has been kept as 'acceldata_list' to avoid confusion with other datasets
