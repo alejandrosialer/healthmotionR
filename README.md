@@ -1,4 +1,11 @@
 # healthmotionR
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![CRAN status](https://www.r-pkg.org/badges/version/healthmotionR)](https://CRAN.R-project.org/package=healthmotionR)
+[![CRAN downloads (monthly)](https://cranlogs.r-pkg.org/badges/healthmotionR?color=brightgreen)](https://cran.r-project.org/package=healthmotionR)
+[![CRAN downloads (total)](https://cranlogs.r-pkg.org/badges/grand-total/healthmotionR?color=blue)](https://cran.r-project.org/package=healthmotionR)
+[![DOI (CRAN)](https://img.shields.io/badge/DOI-10.32614%2FCRAN.package.healthmotionR-blue.svg)](https://doi.org/10.32614/CRAN.package.healthmotionR)
+
+---
 
 The **healthmotionR** package provides a comprehensive collection of datasets related to **health, biomechanics, and human motion**. It was designed to support researchers, analysts, and students who are interested in exploring clinical, physiological, and kinematic data.  
 
