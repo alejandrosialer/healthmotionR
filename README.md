@@ -27,6 +27,34 @@ library(healthmotionR)
 
 ```
 
+## Discover and Load Datasets
+
+```R
+# Complete metadata catalog
+catalog <- list_datasets()
+
+# Search by name, topic, description, or source
+search_datasets("walking")
+
+# Inspect metadata without loading the dataset
+dataset_info("body_metrics")
+
+# Load by the original R name or the language-neutral alias
+body_metrics <- load_dataset("body_metrics")
+head(body_metrics)
+```
+
+## Biomechanics Utilities
+
+```R
+acceleration_magnitude(x = c(1, 0), y = c(0, 1), z = c(0, 0))
+range_of_motion(c(-10, 5, 25))
+gait_symmetry(left = c(1.0, 1.1), right = c(1.0, 1.0))
+```
+
+The same dataset names and utilities are mirrored by the companion Python
+package, **healthmotionpy**.
+
 ## Dataset Suffixes
 
 Each dataset in the `healthmotionR` package uses a `suffix` to denote the type of R object:
