@@ -12,12 +12,11 @@ A character vector with the names of the available datasets.
 }
 \description{
 This function lists all datasets available in the 'healthmotionR' package.
-If the 'healthmotionR' package is not loaded, it stops and shows an error message.
-If no datasets are available, it returns a message and an empty vector.
+It is retained for backward compatibility; new code can use
+\code{\link[=list_datasets]{list_datasets()}} to obtain the complete metadata catalog.
 }
 \examples{
 if (requireNamespace("healthmotionR", quietly = TRUE)) {
-  library(healthmotionR)
-  view_datasets_healthmotionR()
+  healthmotionR::view_datasets_healthmotionR()
 }
 }
