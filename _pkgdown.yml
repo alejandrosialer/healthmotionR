@@ -2,3 +2,29 @@ url: https://alejandrosialer.github.io/healthmotionR/
 template:
   bootstrap: 5
 
+navbar:
+  structure:
+    left: [reference, articles, news]
+    right: [search, github]
+
+reference:
+  - title: Dataset discovery and access
+    contents:
+      - list_datasets
+      - search_datasets
+      - dataset_info
+      - load_dataset
+      - export_dataset
+      - quick_summary
+      - view_datasets_healthmotionR
+  - title: Biomechanics utilities
+    contents:
+      - acceleration_magnitude
+      - range_of_motion
+      - gait_symmetry
+  - title: Datasets
+    contents:
+      - ends_with("_df")
+      - ends_with("_list")
+      - ends_with("_array")
+      - ends_with("_char")

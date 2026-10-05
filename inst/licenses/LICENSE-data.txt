@@ -28,10 +28,6 @@ Dataset Licensing Information:
   Originally infant_walking from the IIS 1.1 package, licensed under GPL-2.
   The dataset name has been changed to 'infant_walking_df' to indicate that this dataset is a data frame object.
 
-- bodytempHeart_rate_df:
-  Originally body_temperature_and_heart_rate from the IIS 1.1 package, licensed under GPL-2.
-  The dataset name has been changed to 'bodytempHeart_rate_df' to indicate that this dataset is a data frame object.
-
 - meniscal_list:
   Originally meniscal_repairs_load_at_failure from the IIS 1.1 package, licensed under GPL-2.
   The dataset name has been changed to 'meniscal_list' to indicate that this dataset is a list object.
@@ -68,13 +64,9 @@ Dataset Licensing Information:
   Originally motionpaths from the RRPP 2.1.2 package, licensed under GPL (>= 3).
   The dataset name has been changed to 'motionpaths_list' to indicate that this dataset is a list object.
 
-- accel.z.monitoring_num:
-  Originally z.acc from the TrendLSW 1.0.2 package, licensed under GPL (>= 3).
-  The dataset name has been changed to 'accel.z.monitoring_num' to indicate that this dataset is a numeric object.
-
-- z.labels.monitoring_df:
+- z_labels_monitoring_df:
   Originally z.labels from the TrendLSW 1.0.2 package, licensed under GPL (>= 3).
-  The dataset name has been changed to 'z.labels.monitoring_df' to indicate that this dataset is a data frame object.
+  The dataset name has been changed to 'z_labels_monitoring_df' to indicate that this dataset is a data frame object.
 
 - walking_df:
   Originally walking from the mice 3.18.0 package, licensed under GPL (>= 2).

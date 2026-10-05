@@ -1,7 +1,7 @@
 Package: healthmotionR
 Type: Package
 Title: A Comprehensive Collection of Health and Human Motion Datasets
-Version: 0.2.0
+Version: 0.3.0
 Maintainer: Oscar Alejandro Sialer Gallo <alejandro.sialer.gallo@gmail.com>
 Description: Provides a broad collection of datasets focused on health, biomechanics, and human motion.
     It includes clinical, physiological, and kinematic information from diverse sources,
@@ -9,6 +9,8 @@ Description: Provides a broad collection of datasets focused on health, biomecha
     accelerometry, gait analysis, motion sensing, and biomechanics experiments.
     Designed for researchers, analysts, and students, the package facilitates exploration
     and analysis of data related to health monitoring, physical activity, and rehabilitation.
+    A searchable dataset catalog, consistent loading and export helpers, descriptive summaries,
+    and foundational biomechanics utilities support reproducible teaching and analysis workflows.
 License: MIT + file LICENSE
 URL: https://github.com/alejandrosialer/healthmotionR, https://alejandrosialer.github.io/healthmotionR/
 BugReports: https://github.com/alejandrosialer/healthmotionR/issues

@@ -56,6 +56,23 @@ Below are selected example datasets included in the `healthmotionR` package:
 
 - `run_biomech_tbl_df`:  Running Injury Clinic Kinematic Dataset.
 
+## Dataset Discovery
+
+The metadata catalog can be filtered and searched before a dataset is loaded:
+
+```{r catalog}
+list_datasets(topic = "gait")
+search_datasets("heart")
+dataset_info("body_metrics")
+```
+
+The original R names and their language-neutral aliases are both accepted:
+
+```{r loading}
+body_metrics <- load_dataset("body_metrics")
+head(body_metrics)
+```
+
 ## Data Visualization with healthmotionR Datasets
 
 ###  body_metrics_df
@@ -71,11 +88,28 @@ body_metrics_df %>%
   labs(
     title = "Body Temperature Distribution by Gender",
     x = "Gender",
-    y = "Temperature (°C)"
+    y = "Temperature (°F)"
   ) +
   theme_minimal() +
   theme(legend.position = "none")
 
+```
+
+## Foundational Biomechanics Utilities
+
+```{r biomechanics}
+acceleration_magnitude(
+  x = c(1, 0),
+  y = c(0, 1),
+  z = c(0, 0)
+)
+
+range_of_motion(c(-10, 5, 25))
+
+gait_symmetry(
+  left = c(1.0, 1.1),
+  right = c(1.0, 1.0)
+)
 ```
 
 
@@ -88,5 +122,4 @@ With its curated datasets, **healthmotionR** facilitates reproducible research a
 Ultimately, the package is intended to serve as a foundation for advancing knowledge in health-related data science and biomechanics, encouraging both applied analysis and innovative research.  
 
 <div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
-
 
